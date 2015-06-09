@@ -1,11 +1,11 @@
-package com.example.chrsrck.interactivestory;
+package com.example.chrsrck.interactivestory.ui;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import com.example.chrsrck.interactivestory.R;
 
 
 public class StoryActivity extends Activity {

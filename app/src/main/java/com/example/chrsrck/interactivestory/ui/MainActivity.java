@@ -38,4 +38,10 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    //Used when you return to the activity and don't want to recreate it
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mNameField.setText("");
+    }
 }
